@@ -34,7 +34,6 @@ export const Menu = ({setVisibility, visibility}) => {
 			<span>{visibility.favorites ?
 				<FaHome onClick={() => showHome()}/> :
 			    <FaHome style={color} /> }</span>
-			<span><a href="https://github.com/navaato305/google-book-search"><GoMarkGithub /></a></span>
 		</nav>
 	)
 }
