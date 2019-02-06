@@ -20,7 +20,7 @@ export const DashBoard = ({type, query, queryObject}) => {
 		<nav aria-label="Book search form" id="book-form">
 		<header>
 			<img src="assets/img/icon-128x128.png" alt="logo"/>
-			<h1>Booklooker</h1>
+			<h1>Google Book Search</h1>
 		</header>
 		<form onSubmit={submit}>
 			<select aria-label="Drop-down list for book search category"
